@@ -1,0 +1,85 @@
+body{
+    background-image: url(img/planodefundo.png);
+}
+
+.caixa{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Times", "Times New Roman", "Georgia", serif;
+}
+
+header{
+    border-bottom: 2px solid #43433f;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a{
+    text-decoration: none;
+    color: #8c8c85;
+}
+
+nav a:hover{
+    color:  #232320;
+    border-bottom: 2px solid #232320;
+}
+
+p{
+    text-align: justify
+}
+
+footer p{
+    border-top: 1px solid #8c8c85;
+    text-align: center;
+    color: #8c8c85;
+    padding-top: 20px;
+}
+
+#biografia img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    float: left;
+    padding: 0px 10px 10px 10px;
+}
+
+#obras{
+    clear: left;
+    display: flex;
+    gap: 30px;
+}
+
+#obras article{
+    box-shadow: 2px 2px 5px gray;
+    padding: 10px;
+}
+
+#curiosidades li{
+    list-style-position: inside;
+}
+
+#tituloObras{
+    text-align: center;
+    clear: left;
+}
+
+@media (max-width: 768px){
+    #obras{
+        flex-direction: column;
+    }
+}
+#obras img{
+    width: 100%;
+}
